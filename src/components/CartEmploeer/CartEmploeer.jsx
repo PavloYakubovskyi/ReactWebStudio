@@ -1,5 +1,6 @@
 import SocialLink from "../SocialLink/SocialLink";
 
+// ui повертає
 function CartEmploeer({ employeer }) {
   //   const [count, setCount] = useState(0);
   console.log(employeer);

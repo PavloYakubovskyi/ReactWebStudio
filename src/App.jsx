@@ -8,6 +8,7 @@ import Header from "./components/Headers/Headers";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import About from "./pages/About/About";
 import Portfolio from "./pages/Portfolio/Portfolio";
+import Autorization from "./pages/Autorization/Autorization";
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -21,6 +22,7 @@ function App() {
           <Route path={"/"} element={<Home />} />
           <Route path={"/about"} element={<About />} />
           <Route path={"/portfolio"} element={<Portfolio />} />
+          {/* <Route path={"/autorization"} element={<Autorization />} /> */}
         </Routes>
         <Footer />
       </BrowserRouter>
